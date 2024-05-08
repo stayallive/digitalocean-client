@@ -31,6 +31,11 @@ final class Account extends AbstractEntity
     public $floatingIpLimit;
 
     /**
+     * @var int
+     */
+    public $volumeLimit;
+
+    /**
      * @var string
      */
     public $email;
